@@ -1,0 +1,95 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2023 10:16:23] "GET /people/1/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2023 10:16:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/people/2/
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2023 10:16:29] "GET /people/2/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/0/
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2023 10:16:36] "GET /people/0/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/100/
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2023 10:16:42] "GET /people/100/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/1100/
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2023 10:16:46] "[33mGET /people/1100/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/people/1100/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 10:30:45] "[33mGET /people/1100/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/people/1100/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 10:30:46] "[33mGET /people/1100/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/people/44/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 10:30:51] "GET /people/44/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/44/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 10:31:39] "GET /planets/44/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 10:31:46] "GET /planets/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:43:04] "GET /people/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/999/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:43:06] "[33mGET /people/999/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:43:08] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/999/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:43:10] "[33mGET /planets/999/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/starships/1000/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:43:12] "[33mGET /starships/1000/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/starships/999/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:43:14] "[33mGET /starships/999/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:57:13] "GET /people/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/999/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:57:15] "[33mGET /people/999/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:57:17] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/999/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:57:19] "[33mGET /planets/999/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/starships/1000/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:57:21] "[33mGET /starships/1000/ HTTP/1.1[0m" 404 -
+INFO:root:Received request: http://localhost:5000/starships/999/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 11:57:23] "[33mGET /starships/999/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Received request: http://localhost:5000/planets/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:41:02] "GET /planets/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:41:47] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:41:51] "GET /people/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:41:56] "GET /people/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:41:59] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:03] "GET /people/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:06] "GET /people/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:10] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:13] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:18] "GET /people/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:21] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/people/1/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:25] "GET /people/1/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/starships/100/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:30] "GET /starships/100/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/starships/100/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:34] "GET /starships/100/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:39] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:44] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/starships/100/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:49] "GET /starships/100/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:53] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/starships/100/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:42:57] "GET /starships/100/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:43:01] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:43:05] "GET /planets/42/ HTTP/1.1" 200 -
+INFO:root:Received request: http://localhost:5000/planets/42/
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 13:43:09] "GET /planets/42/ HTTP/1.1" 200 -
